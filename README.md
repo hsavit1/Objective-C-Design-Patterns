@@ -1,5 +1,7 @@
 #### Design patterns will be based off of my own knowledge, ___Cocoa Design Patterns___ by Eric Buck, and ___PRO Objective-C Design Patterns___
 
+------
+
 #### Index:
 - [Object Creation](#Object-Creation)
 - [Interface Adaptation](#Interface-Adaptation)
@@ -9,6 +11,8 @@
 - [Algorithm Encapsulation][]
 - [Performance and Object Access][]
 - [State of the Object][]
+
+------
 
 ###Object-Creation 
 ------
@@ -36,10 +40,21 @@
     ------
     
 2. **Factory Method**
+	
+    ------
+
 3. **Abstract Factory**
+
+	------
+    
 4. **Builder**
+
+    ------
+    
 5. **Singleton**
 
+	------
+    
 ###Interface Adaptation
 ------
 - **Adapter**
