@@ -11,7 +11,7 @@
     * **bottom line** is to make a _true copy_ of an object so that we can use it as a basis (prototype) for something else related in the same context
     
     ###### Using the Prototype Pattern
-    To use the Prototype pattern, try implementing the `<NSCopying>` protocol, which requires using the `- (id)copyWithZone:(NSZone *)zone` method. Remember that the NSObject protocol doesn't have a copy method declared, but NSObject does
+    To use the Prototype pattern, try implementing the `<NSCopying>` protocol, which requires using the `- (id)copyWithZone:(NSZone *)zone` method. Remember that the NSObject protocol doesn't have a copy method declared, but NSObject does Here's an example
     ``` 
     -(id)copyWithZone:(NSZone *)zone{
     		Stroke *strokeCopy = [[[self class] allocWithZone:zone] init];
@@ -19,6 +19,9 @@
     		return strokeCopy;
         }
     ```
+    ###### Summary
+    The prototype pattern is one of the simplest and easiest patterns for object creation. This pattern is good for understanding the differences between shallow and deep copying
+    
 2. **Factory Method**
 3. **Abstract Factory**
 4. **Builder**
