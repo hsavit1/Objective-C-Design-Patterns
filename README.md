@@ -4,6 +4,8 @@
 
 ####Object Creation
 
+_you should use to learn how to create objects_
+
 * **Prototype**: The Protoype design pattern is handy in the following use cases
 	* We need to create objects that should be independent of what they are and how they are created
 	* Classes to be instantiated are determined at runtime
