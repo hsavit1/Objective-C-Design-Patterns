@@ -10,7 +10,7 @@
     * Classes are not easy to create, such as compositie objects in which each component can have other components as children. I'd be easier to clone _existing_ compositie objects and modify the copies
     * **bottom line** is to make a _true copy_ of an object so that we can use it as a basis (prototype) for something else related in the same context
     
-    #### Using the Prototype Pattern
+    ###### Using the Prototype Pattern
     To use the Prototype pattern, try implementing the `<NSCopying>` protocol, which requires using the `- (id)copyWithZone:(NSZone *)zone` method. Remember that the NSObject protocol doesn't have a copy method declared, but NSObject does
     ``` -(id)copyWithZone:(NSZone *)zone{
     		Stroke *strokeCopy = [[[self class] allocWithZone:zone] init];
