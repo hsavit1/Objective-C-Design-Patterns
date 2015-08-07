@@ -1,10 +1,8 @@
 ## Design patterns will be based off of my own knowledge, ___Cocoa Design Patterns___ by Eric Buck, and ___PRO Objective-C Design Patterns___
 
-###From ___PRO Objective-C Design Patterns___
+##Object Creation
 
-####Object Creation
-
-_you should use to learn how to create objects_
+_you should use these patterns to create objects_
 
 * **Prototype**: The Protoype design pattern is handy in the following use cases
 	* We need to create objects that should be independent of what they are and how they are created
