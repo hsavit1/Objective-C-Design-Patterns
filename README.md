@@ -1,13 +1,13 @@
 #### Design patterns will be based off of my own knowledge, ___Cocoa Design Patterns___ by Eric Buck, and ___PRO Objective-C Design Patterns___
 
 #### Index:
-- Object Creation
-- Interface Adaptation
-- Decoupling of Objects
-- Abstract Collection
-- Behavioral Extension
-- Algorithm Encapsulation
-- Performance and Object Access
+- (Object Creation)
+- [Interface Adaptation
+- [Decoupling of Objects
+- [Abstract Collection
+- [Behavioral Extension
+- [Algorithm Encapsulation
+- [Performance and Object Access
 - State of the Object
 
 ##Object Creation
