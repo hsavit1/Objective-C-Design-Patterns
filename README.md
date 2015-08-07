@@ -39,7 +39,7 @@
 5. **Singleton**
 
 ##Interface Adaptation
-======
+------
 - **Adapter**
 - **Bridge**
 - **Façade**
