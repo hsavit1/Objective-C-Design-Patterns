@@ -2,8 +2,6 @@
 
 ##Object Creation
 
-_you should use these patterns to create objects_
-
 * **Prototype**: The Protoype design pattern is handy in the following use cases
 	* We need to create objects that should be independent of what they are and how they are created
 	* Classes to be instantiated are determined at runtime
@@ -17,32 +15,32 @@ _you should use these patterns to create objects_
 * **Builder**
 * **Singleton**
 
-####Interface Adaptation
+##Interface Adaptation
 - **Adapter**
 - **Bridge**
 - **Façade**
 
-####Decoupling of Objects
+##Decoupling of Objects
 - **Mediator**
 - **Observer**
 
-####Abstract Collection
+##Abstract Collection
 - **Composite**
 - **Iterator**
 
-####Behavioral Extension
+##Behavioral Extension
 - **Visitor**
 - **Decorator**
 - **Chain of Responsibility**
 
-####Algorithm Encapsulation
+##Algorithm Encapsulation
 - **Template Method**
 - **Strategy**
 - **Command**
 
-####Performance and Object Access
+##Performance and Object Access
 - **Flyweight**
 - **Proxy**
 
-####State of the Object
+##State of the Object
 - **Memento**
