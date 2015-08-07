@@ -12,11 +12,13 @@
     
     ###### Using the Prototype Pattern
     To use the Prototype pattern, try implementing the `<NSCopying>` protocol, which requires using the `- (id)copyWithZone:(NSZone *)zone` method. Remember that the NSObject protocol doesn't have a copy method declared, but NSObject does
-    ``` -(id)copyWithZone:(NSZone *)zone{
+    ``` 
+    -(id)copyWithZone:(NSZone *)zone{
     		Stroke *strokeCopy = [[[self class] allocWithZone:zone] init];
             [strokeCopy setSize:size_];
     		return strokeCopy;
-        }```
+        }
+    ```
 2. **Factory Method**
 3. **Abstract Factory**
 4. **Builder**
