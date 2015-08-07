@@ -2,7 +2,7 @@
 
 ##Object Creation
 
-* **Prototype**: The Protoype design pattern is handy in the following use cases
+1. **Prototype**: The Protoype design pattern is handy in the following use cases
 	* We need to create objects that should be independent of what they are and how they are created
 	* Classes to be instantiated are determined at runtime
 	* We don't want to have a hierarchy of factories for a corresponding hierarchy of problems
@@ -17,10 +17,10 @@
             [strokeCopy setSize:size_];
     		return strokeCopy;
         }```
-* **Factory Method**
-* **Abstract Factory**
-* **Builder**
-* **Singleton**
+2. **Factory Method**
+3. **Abstract Factory**
+4. **Builder**
+5. **Singleton**
 
 ##Interface Adaptation
 - **Adapter**
