@@ -1,7 +1,7 @@
 #### Design patterns will be based off of my own knowledge, ___Cocoa Design Patterns___ by Eric Buck, and ___PRO Objective-C Design Patterns___
 
 #### Index:
-- [Object Creation](#object creation)
+- [Object Creation](#Object Creation)
 - [Interface Adaptation][]
 - [Decoupling of Objects][]
 - [Abstract Collection][]
