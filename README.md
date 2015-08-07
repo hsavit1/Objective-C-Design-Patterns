@@ -10,8 +10,7 @@
 - [Performance and Object Access][]
 - [State of the Object][]
 
-##Object-Creation
-------
+##Object-Creation ------
 
 1. **Prototype**: The Protoype design pattern is one of the easiest design patterns to implement. A client knows an abstract Prototype Class. At runtime any object that is a subclass of the abstract prototype can be cloned at the client's will. So the client can make multiple instances of the same type without creating them manually. It's handy in the following use cases:
 	* We need to create objects that should be independent of what they are and how they are created
