@@ -109,7 +109,7 @@
 | One adapter object only; no extra pointer indirection is needed to get the adaptee | Requires an extra pointer to indirectly access Adaptee and adapt its behavior |   
 
 	#####When would you use an adapter?
-    * the interdace of an existing class does not match the one you need
+    * the interface of an existing class does not match the one you need
     * you want to have a reusable class that can cooperate with other classes with possibly incompatible interfaces
     * you need to adapt several different subclasses of a class, but it's impractical to let each of them subclass a class adapter. So you can use an object adapter (a.k.a. delegate) to adapt their parent's interface
 
