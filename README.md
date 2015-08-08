@@ -111,7 +111,7 @@
     * you need to adapt several different subclasses of a class, but it's impractical to let each of them subclass a class adapter. So you can use an object adapter (a.k.a. delegate) to adapt their parent's interface
 
 	#####Summary
-    Although the delegate pattern itself can serve multiple intents other than just for the adapter pattern, it was one of the major inspirations for the adapter pattern in the first place! Blocks can also serve as adapters in the adapter pattern. 
+    Although the delegate pattern itself can serve multiple intents other than just for the adapter pattern, it was one of the major inspirations for the adapter pattern in the first place! Blocks can also serve as adapters in the adapter pattern. Additionally, [categories](http://www.cocoawithlove.com/2008/05/adapter-interfaces-in-objective-c-using.html) can also serve as interfaces for the adapter pattern
     
 	------
 
