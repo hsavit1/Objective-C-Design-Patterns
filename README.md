@@ -75,6 +75,17 @@
     
 4. **Builder**
 
+	Separates the construction of a complex object from its representation so that the same construction process can create different representations
+	* when you need to create a complex object that involves different parts like building a composite object
+    * you need a construction process that constructs an object in different ways (diff combos of parts)
+
+	| Builder        | Abstract Factory |
+| ------------- |:-------------:|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
+| zebra stripes | are neat      |
+| zebra stripes | are neat      |
     ------
     
 5. **Singleton**
