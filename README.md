@@ -62,7 +62,7 @@
     This can be solved by using the _Abstract Factory Pattern_, which is good for providing a consistent interface for creating families of related or dependent objects without specifying their concrete classes or any details about how to create them. The client is decoupled from any of the specifics of concrete objects obtained from the factory.
 
 	| Abstract Factory        | Factory Method           | 
-| ------------- |:-------------:| 
+|:-------------:|:-------------:| 
 | Abstract product creation through object composition      | Abstract product creation through class inheritance | 
 | Creates families of products      | Creates one type of product      |   
 | The parent interface needs to be changed for supporting new products | Subclass the Creator and override the factory method to create new products     |   
@@ -80,7 +80,7 @@
     * you need a construction process that constructs an object in different ways (diff combos of parts)
 
 	| Builder        | Abstract Factory |
-| ------------- |:-------------:|
+|:-------------:|:-------------:|
 | Constructs complex objects      | Constructs simple and complex objects |
 | Constructs an object in multiple steps      | Constructs an object in one step      |
 | Constructs an object in many ways | Constructs an object in 1 way      |
