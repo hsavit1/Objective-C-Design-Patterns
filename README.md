@@ -39,8 +39,11 @@
     
     ------
     
-2. **Factory Method**
+2. **Factory Method**: Unilke what we have seen from the Prototype Pattern, the Factory method is a creation pattern that doesn't use a copy method to create the same type of object. Rather, it uses a method that decides what type of object to create. 
+In the Factory method, there are 2 abstractions to make: the _factory_ is the creator and the "_producer_" is the magic word needed for the factory to create somehting. 
 	
+    
+    
     ------
 
 3. **Abstract Factory**
