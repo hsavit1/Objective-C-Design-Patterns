@@ -81,11 +81,11 @@
 
 	| Builder        | Abstract Factory |
 | ------------- |:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
-| zebra stripes | are neat      |
-| zebra stripes | are neat      |
+| Constructs complex objects      | Constructs simple and complex objects |
+| Constructs an object in multiple steps      | Constructs an object in one step      |
+| Constructs an object in many ways | Constructs an object in 1 way      |
+| Returns a product as a final step of a construction process | Returns a product immediately |
+| Focuses on 1 particular product | Emphasizes a suite of products      |
     ------
     
 5. **Singleton**
