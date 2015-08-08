@@ -12,7 +12,6 @@
 - [Performance and Object Access][]
 - [State of the Object][]
 
-------
 
 ##Object-Creation 
 
@@ -91,8 +90,7 @@
 
 	------
     
-###Interface Adaptation
-------
+##Interface Adaptation
 - **Adapter**
 
 	"Converts the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces" - Gangbang of 4
@@ -117,32 +115,27 @@
 - **Bridge**
 - **Façade**
 
-###Decoupling of Objects
-------
+##Decoupling of Objects
 - **Mediator**
 - **Observer**
 
-###Abstract Collection
-------
+##Abstract Collection
 - **Composite**
 - **Iterator**
 
-###Behavioral Extension
-------
+##Behavioral Extension
 - **Visitor**
 - **Decorator**
 - **Chain of Responsibility**
 
-###Algorithm Encapsulation
-------
+##Algorithm Encapsulation
 - **Template Method**
 - **Strategy**
 - **Command**
 
-###Performance and Object Access
-------
+##Performance and Object Access
 - **Flyweight**
 - **Proxy**
 
-###State of the Object
+##State of the Object
 - **Memento**
