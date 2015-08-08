@@ -100,7 +100,7 @@
     
     It's hard to directly compare the Adapter pattern with an objective-c equivalent. Delegation could be classified as either an Adapter, a template, or a decorator
     
-    There are 2 kinds of adapters: class an objects adapters. Yet they serve the same purpose. Here's a breakdown
+    There are 2 kinds of adapters: class an objects adapters. Yet they serve the same purpose. Here's a breakdown (delegates are object adapters)
     
     | Class Adapter        | Object Adapter           | 
 |:-------------:|:-------------:| 
