@@ -61,13 +61,13 @@
 	When I think of an Abstract Factory, I like to think of a pizza chef. There are many styles of pizza to make. Pepperoni, New York Style, Chicago Style, etc. But the point is, that at the end of the idea, that there are some basic characteristics that all pizza should share. So pizza is a food with a high level perspective, aka an _abstract food type_. In software, if a client wants to create an object of a class manually, then the client needs to know the details of the class in question to create it. 
     This can be solved by using the _Abstract Factory Pattern_, which is good for providing a consistent interface for creating families of related or dependent objects without specifying their concrete classes or any details about how to create them. The client is decoupled from any of the specifics of concrete objects obtained from the factory.
 
-| Abstract Factory        | Factory Method           | 
+	| Abstract Factory        | Factory Method           | 
 | ------------- |:-------------:| 
 | Abstract product creation through object composition      | Abstract product creation through class inheritance | 
 | Creates families of products      | Creates one type of product      |   
 | The parent interface needs to be changed for supporting new products | Subclass the Creator and override the factory method to create new products     |   
 
-Note that there is a distinction between factory methods for creating abstract products and factory methods for creating abstract factories
+	Note that there is a distinction between factory methods for creating abstract products and factory methods for creating abstract factories
 
 	------
     
