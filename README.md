@@ -67,7 +67,9 @@
 | Creates families of products      | Creates one type of product      |   
 | The parent interface needs to be changed for supporting new products | Subclass the Creator and override the factory method to create new products     |   
 
-	Note that there is a distinction between factory methods for creating abstract products and factory methods for creating abstract factories
+	You might have heard of the "Class Cluster" design pattern before. This pattern is _based_ on the idea of an Abstract Factory pattern. It groups a number of related, private, concrete factory subclasses under a public, abstract superclass. 
+
+	Note that there is a distinction between factory methods for creating abstract products and factory methods for creating abstract factories. This is the difference between **Abstract Factory** and **Abstract Factory REDUX**. When you hear people say "we need a factory here," that doesn't necessarily mean a factory method. It could mean a concrete factory that returns abstract products (this is the "Flyweight" pattern). NSNumber is an abstract factory and NSCFNumber are concrete factories. A common thing to do is to put a concrete factory in your design, and refractor it as an abstract factory with multiple concrete factories
 
 	------
     
