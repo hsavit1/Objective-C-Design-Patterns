@@ -50,10 +50,22 @@
 	#####So what _is_ a Factory method pattern?
 	A factory method pattern is also called a virtual constructor. It's useful when a class can't anticipate the class of objects it must create and wants its subclasses to specify the objects it creates. In short, you define an **interface** for creating an object, but you let the _subclasses_ decide which class to instantiate. You are thus deferring isntantiation to the subclasses.
     
+    #####Example
+    
+    #####Summary
+    Use a factory method to decouple application-specific classes from you code. This happens through class inheritance.
     
     ------
 
 3. **Abstract Factory**
+	When I think of an Abstract Factory, I like to think of a pizza chef. There are many styles of pizza to make. Pepperoni, New York Style, Chicago Style, etc. But the point is, that at the end of the idea, that there are some basic characteristics that all pizza should share. So pizza is a food with a high level perspective, aka an _abstract food type_. In software, if a client wants to create an object of a class manually, then the client needs to know the details of the class in question to create it. 
+    This can be solved by using the _Abstract Factory Pattern_, which is good for providing a consistent interface for creating families of related or dependent objects without specifying their concrete classes or any details about how to create them. The client is decoupled from any of the specifics of concrete objects obtained from the factory.
+
+| Abstract Factory        | Factory Method           | 
+| ------------- |:-------------:| 
+| Abstract product creation through object composition      | Abstract product creation through class inheritance | 
+| Creates families of products      | Creates one type of product      |   
+| The parent interface needs to be changed for supporting new products | Subclass the Creator and override the factory method to create new products     |   
 
 	------
     
