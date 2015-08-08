@@ -67,6 +67,7 @@
 | Creates families of products      | Creates one type of product      |   
 | The parent interface needs to be changed for supporting new products | Subclass the Creator and override the factory method to create new products     |   
 
+Note that there is a distinction between factory methods for creating abstract products and factory methods for creating abstract factories
 
 	------
     
