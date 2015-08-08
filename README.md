@@ -95,6 +95,19 @@
 ###Interface Adaptation
 ------
 - **Adapter**
+
+	"Converts the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces" - Gangbang of 4
+    
+    It's hard to directly compare the Adapter pattern with an objective-c equivalent. Delegation could be classified as either an Adapter, a template, or a decorator
+    
+    There are 2 kinds of adapters: class an objects adapters. Yet they serve the same purpose. Here's a breakdown
+    
+    | Class Adapter        | Object Adapter           | 
+| ------------- |:-------------:| 
+| Adapts the Adaptee to `Target` by comitting to a _single_, concrete Adaptee class only  | Can adapt to _many_ adaptees and all their subclasses | 
+| Easy to override the adaptee's behavior as it's done directly through subclassing   | Difficult to override the adaptee's behavior; it needs to refer to the object of the subclass rather than the Adaptee itself  |   
+| One adapter object only; no extra pointer indirection is needed to get the adaptee | Requires an extra pointer to indirectly access Adaptee and adapt its behavior |   
+
 - **Bridge**
 - **Façade**
 
