@@ -3,7 +3,7 @@
 ------
 
 #### Index:
-- [Object Creation](#Object-Creation)
+- [Object Creation](###Object-Creation)
 - [Interface Adaptation](#Interface-Adaptation)
 - [Decoupling of Objects][]
 - [Abstract Collection][]
