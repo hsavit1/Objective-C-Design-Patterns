@@ -41,7 +41,7 @@
     
 2. **Factory Method**: Unilke what we have seen from the Prototype Pattern, the Factory method is a creation pattern that doesn't use a copy method to create the same type of object. Rather, it uses a method that decides what type of object to create. It is particularly useful for framework designers.
 
-In the Factory method, there are 2 abstractions to make: the _factory_ is the creator and the "_producer_" is the magic word needed for the factory to create somehthing. The Factory Method pattern is useful in the following scenarios
+	In the Factory method, there are 2 abstractions to make: the _factory_ is the creator and the "_producer_" is the magic word needed for the factory to create somehthing. The Factory Method pattern is useful in the following scenarios
 	* The exact class of the objects created can't be anticipated at compile time
     * A class wants its subclasses to decide what to create at runtime
     * A class has some helper classes as its subclasses and you want to localize the knowledge of which one to return
