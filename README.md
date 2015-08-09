@@ -52,6 +52,7 @@
     
     #####Summary
     Use a factory method to decouple application-specific classes from you code. This happens through class inheritance.
+	The factory method pattern is used when there is a choice to be made between classes that implement a common protocol or share a common base class. This pattern allows implementation subclasses to provide specializations without requiring the components that rely on them to know any details of those classes and how they relate to each other. Use this pattern when you have several classes that implement a common protocol or that are derived from the same base class.
     
     ------
 
