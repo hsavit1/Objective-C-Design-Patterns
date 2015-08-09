@@ -1,4 +1,4 @@
-#### Design patterns will be based off of my own knowledge, ___Cocoa Design Patterns___ by Eric Buck, and ___PRO Objective-C Design Patterns___
+#### Design patterns will be based off of my own knowledge, ___Cocoa Design Patterns___ by Eric Buck, and ___PRO Objective-C Design Patterns___. Design patterns will be based on the Objective-C iOS API. A separate list will have to be made for Swift
 
 ------
 
