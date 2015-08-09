@@ -87,6 +87,9 @@
 | Focuses on 1 particular product | Emphasizes a suite of products      |
     ------
     
+    #####Summary
+    The builder pattern puts the logic and default configuration values required to create an object into a builder class. This allows calling components to create objects with minimal configuration data and without needing to know the default values that will be used to create the object.
+    
 5. **Singleton**
 
 	------
