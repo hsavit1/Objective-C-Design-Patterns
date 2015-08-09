@@ -4,18 +4,39 @@
 
 #### Index:
 - [Object Creation](###Object-Creation)
+	1. Prototype
+    2. Factory Method
+    3. Abstract Factory
+    4. Builder
+    5. Singleton
 - [Interface Adaptation](#Interface-Adaptation)
+	1. Adapter
+    2. Bridge
+    3. Façade
 - [Decoupling of Objects][]
+	1. Mediator
+    2. Observer
 - [Abstract Collection][]
+	1. Composite
+	2. Iterator
 - [Behavioral Extension][]
+	1. Visitor
+	2. Decorator
+	3. Chain of Responsibility
 - [Algorithm Encapsulation][]
+	1. Template Method
+	2. Strategy
+	3. Command
 - [Performance and Object Access][]
+	1. Flyweight
+	2. Proxy
 - [State of the Object][]
-
+	1. Memento
 
 ##Object-Creation 
 
-1. **Prototype**: The Protoype design pattern is one of the easiest design patterns to implement. A client knows an abstract Prototype Class. At runtime any object that is a subclass of the abstract prototype can be cloned at the client's will. So the client can make multiple instances of the same type without creating them manually. It's handy in the following use cases:
+1. ###Prototype:
+	The Protoype design pattern is one of the easiest design patterns to implement. A client knows an abstract Prototype Class. At runtime any object that is a subclass of the abstract prototype can be cloned at the client's will. So the client can make multiple instances of the same type without creating them manually. It's handy in the following use cases:
 	* We need to create objects that should be independent of what they are and how they are created
 	* Classes to be instantiated are determined at runtime
 	* We don't want to have a hierarchy of factories for a corresponding hierarchy of problems
